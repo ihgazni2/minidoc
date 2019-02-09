@@ -57,7 +57,7 @@ Quickstart
       TEST#
 
       
-.. image:: /docs/images/code.tst.py.1.png
+.. image:: /docs/images/code.tst.py.11.png
 .. image:: /docs/images/code.tst.py.2.png
 
 
