@@ -28,7 +28,7 @@ still_frame = boolize(args.still_frames)
 
 
 def main():
-    kl,vl = tst2kvlist(fn=args.test_file,codec=args.codec)
-    creat_svgs(kl,vl,still_frames=still_frames,rownums=int(args.rownums),dst_dir=args.dst_dir)
-    rst_str = creat_rst(kl,vl,title=args.title,title_bot=args.title_bot,entry_bot=args.entry_bot)
+    kl,vl = tst.tst2kvlist(fn=args.test_file,codec=args.codec)
+    minidoc.creat_svgs(kl,vl,still_frames=still_frames,rownums=int(args.rownums),dst_dir=args.dst_dir)
+    rst_str = tst.creat_rst(kl,vl,title=args.title,title_bot=args.title_bot,entry_bot=args.entry_bot)
     fs.wfile(args.title+".rst",rst_str,codec=args.codec)
