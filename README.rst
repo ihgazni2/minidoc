@@ -49,15 +49,15 @@ Quickstart
       .
       ├── code.tst.py
       ├── images------------------------------->generated svgs
-      │   ├── __getitem__.1.svg
-      │   └── __init__.0.svg
+      │   ├── __getitem__.svg
+      │   └── __init__.svg
       └── Usage.rst---------------------------->generated .rst
       
       1 directory, 4 files
       TEST#
 
       
-.. image:: /docs/images/code.tst.py.1.png
+.. image:: /docs/images/code.tst.py.11.png
 .. image:: /docs/images/code.tst.py.2.png
 
 
