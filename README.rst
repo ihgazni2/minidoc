@@ -23,7 +23,7 @@ Quickstart
 
 - edit your code.tst.py  as below:
 
-.. image:: /docs/images/code.tst.py.0.png
+.. image:: /docs/images/code.tst.py.00.png
 
 - run cmd **minidoc code.tst.py wkdir** ,
   will auto exec the code in code.tst.py, 
