@@ -3,7 +3,7 @@ from efdir import fs
 from io import BytesIO
 import estring.estring as eses
 import re
-
+import elist.elist as elel
 
 # tokenize.NL
 # Token value used to indicate a non-terminating newline. 
