@@ -19,16 +19,16 @@ License
 
 Quickstart
 ----------
-- pip3 install minidoc
+- *pip3 install minidoc*
 
-- make a workdir, such as "TEST"
+- *make a workdir, such as "TEST"*
     
     ::
     
         mkdir TEST
         cd TEST
    
-- edit your code.tst.py  as below:
+- *edit your code.tst.py  as below:*
 
     ::
         
@@ -37,9 +37,9 @@ Quickstart
 
 .. image:: /docs/images/code.tst.py.00.png
 
-- run cmd **minidoc** ,
-  will auto exec the code in code.tst.py, 
-  and auto save  the terminal screen-shot(or recording)
+- *run cmd* **minidoc** ,
+  *will auto exec the code in code.tst.py,* 
+  *and auto save  the terminal screen-shot(or recording)*
   
   ::
       
@@ -59,10 +59,15 @@ Quickstart
       
 .. image:: /docs/images/code.tst.py.1.png
 .. image:: /docs/images/code.tst.py.2.png
+
+
+
+- *open generated .rst to check it*
+
 .. image:: /docs/images/code.tst.py.3.png
 
 
-- minidoc -h
+- *minidoc -h*
 
     ::
         
