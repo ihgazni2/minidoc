@@ -24,7 +24,7 @@ def boolize(s):
         return(False)
 
 args = parser.parse_args()
-still_frame = boolize(args.still_frames)
+still_frames = boolize(args.still_frames)
 
 
 def main():
