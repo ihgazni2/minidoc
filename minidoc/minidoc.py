@@ -11,7 +11,7 @@ def creat_one_svg(k,v,i=None,**kwargs):
         dst_dir = "./images"
     screen_size = svg.get_screen_size(v,**kwargs)
     cmds_str = svg.cmds_arr2str(v,**kwargs)
-    output_path = creat_svg(cmds_str,**kwargs)
+    output_path = svg.creat_svg(cmds_str,**kwargs)
     name = tst.get_svg_name(k) + "." + str(i) + ".svg"
     dst = os.path.join(dst_dir,name)
     shutil.move(output_path,dst)
