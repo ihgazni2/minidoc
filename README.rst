@@ -49,8 +49,8 @@ Quickstart
       .
       ├── code.tst.py
       ├── images------------------------------->generated svgs
-      │   ├── __getitem__.1.svg
-      │   └── __init__.0.svg
+      │   ├── __getitem__.svg
+      │   └── __init__.svg
       └── Usage.rst---------------------------->generated .rst
       
       1 directory, 4 files
