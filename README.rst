@@ -37,9 +37,12 @@ Quickstart
 
 .. image:: /docs/images/code.tst.py.00.png
 
-- *run cmd* **minidoc** ,
-  *will auto exec the code in code.tst.py,* 
-  *and auto save  the terminal screen-shot(or recording)*
+- 
+
+| *run cmd* **minidoc** ,
+| *will auto exec the code in code.tst.py,* 
+| *and auto save  the terminal screen-shot(or recording)* 
+| *and auto generate a .rst doc-file* 
   
   ::
       
