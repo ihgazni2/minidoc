@@ -21,13 +21,41 @@ Quickstart
 ----------
 - pip3 install minidoc
 
+- make a workdir, such as "TEST"
+    
+    ::
+    
+        mkdir TEST
+        cd TEST
+   
 - edit your code.tst.py  as below:
+
+    ::
+        
+        cat code.tst.py
+        
 
 .. image:: /docs/images/code.tst.py.00.png
 
-- run cmd **minidoc code.tst.py wkdir** ,
+- run cmd **minidoc** ,
   will auto exec the code in code.tst.py, 
   and auto save  the terminal screen-shot(or recording)
+  
+  ::
+      
+      minidoc
+      tree
+      TEST# tree
+      .
+      ├── code.tst.py
+      ├── images------------------------------->generated svgs
+      │   ├── __getitem__.1.svg
+      │   └── __init__.0.svg
+      └── Usage.rst---------------------------->generated .rst
+      
+      1 directory, 4 files
+      TEST#
+
       
 .. image:: /docs/images/code.tst.py.1.png
 .. image:: /docs/images/code.tst.py.2.png
