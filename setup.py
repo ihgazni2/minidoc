@@ -30,7 +30,7 @@ setup_requirements = [
 
 setup(
     name='minidoc',
-    version='0.0.1',
+    version='0.0.2',
     description="auto generate a mini rst doc (code block + svg) from a test-file",
     long_description=readme,
     author="dli",
