@@ -84,7 +84,7 @@ def get_screen_size(arr,**kwargs):
     if("rownums" in kwargs):
         rownums = kwargs['rownums']
     else:
-        rownums = 20
+        rownums = 30
     if("colnums" in kwargs):
         colnums = kwargs['colnums']
     else:

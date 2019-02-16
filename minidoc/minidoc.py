@@ -10,6 +10,7 @@ def creat_one_svg(k,v,i=None,**kwargs):
     else:
         dst_dir = "./images"
     screen_size = svg.get_screen_size(v,**kwargs)
+    kwargs['screen_size'] = screen_size
     cmds_str = svg.cmds_arr2str(v,**kwargs)
     output_path = svg.creat_svg(cmds_str,**kwargs)
     #name = tst.get_svg_name(k) + "." + str(i) + ".svg"
