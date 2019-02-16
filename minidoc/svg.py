@@ -63,6 +63,9 @@ def creat_svg(cmds_str,**kwargs):
         _, output_path = tempfile.mkstemp(prefix='termtosvg_',suffix='.svg')
         input_fileno,slave_fd = pty.openpty()
     if(still_frames):
+        print("----")
+        print(screen_size)
+        print("----")
         term.main([bin_path, output_path,'-c', py, '-s','-g',screen_size],input_fileno,None)
         output_path = get_last_svg(output_path)
         os.close(slave_fd)
@@ -81,7 +84,7 @@ def get_screen_size(arr,**kwargs):
     if("rownums" in kwargs):
         rownums = kwargs['rownums']
     else:
-        rownums = 40
+        rownums = 20
     if("colnums" in kwargs):
         colnums = kwargs['colnums']
     else:
