@@ -15,9 +15,9 @@ else:
 
 requirements = [
     "termtosvg",
-    "elist",
     "efdir",
-    "estring"
+    "estring",
+    "elist"
 ]
 
 setup_requirements = [
@@ -30,7 +30,7 @@ setup_requirements = [
 
 setup(
     name='minidoc',
-    version='0.0.2',
+    version='0.0.3',
     description="auto generate a mini rst doc (code block + svg) from a test-file",
     long_description=readme,
     author="dli",
