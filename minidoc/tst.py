@@ -139,4 +139,44 @@ def creat_rst(kl,vl,**kwargs):
 
 #####
 
+#####
+#creat  from  comments
+#####
+
+def creat_projhd(projname,desc):
+    l0 = ".. contents:: Table of Contents\n"
+    l1 = "   :depth: 5\n\n\n"
+    l2 = "*"+projname+"*\n"
+    l3 = "=" * (len(l2) - 1) + "\n"
+    descs = desc.split("\n")
+    descs = elel.mapv(descs, lambda ele:"- "+ele)
+    l4 = elel.join(descs,"\n")
+    l5 = "\n\n\n"
+    s = l0+l1+l2+l3+l4+l5
+    print(s)
+    return(s)
+
+
+def creat_install(*args):
+    l0 = "Installation\n"
+    l1 = "------------\n"
+    l2 = "\n    ::\n"
+    l3 = "\n"
+    projname = args[0]
+    l4 = "        $ "
+    l5 = "pip3 install " if(len(args)==1) else args[1]
+    l6 = projname
+    l7 = "\n\n"
+    s = l0+l1+l2+l3+l4+l5+l6+l7
+    print(s)
+    return(s)
+
+
+
+def creat_license(*args):
+    lic = "MIT" if(len(args)==0) else args[0]
+    tem = "License\n-------\n\n- " + lic + "\n\n"
+    print(tem)
+    return(tem)
+
 

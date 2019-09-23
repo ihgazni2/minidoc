@@ -44,8 +44,11 @@ setup(
     install_requires=requirements,
     license="MIT license",
     keywords='doc,test,svg',
-     entry_points = {
-         'console_scripts': ['minidoc=minidoc.bin:main']
+    entry_points = {
+         'console_scripts': [
+             'minidoc=minidoc.bin:main',
+             'minidoc_from_comments=minidoc.BINS.minidoc_from_comments:main'
+         ]
     },
     classifiers=[
         'Environment :: Console',
