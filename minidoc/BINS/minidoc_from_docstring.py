@@ -6,7 +6,7 @@ from efdir import fs
 import ast
 from minidoc.comast import wfsdig
 from minidoc.tst import creat_rst
-
+import elist.elist as elel
 
 parser = argparse.ArgumentParser()
 parser.add_argument('-src','--src_file', default="",help=".py file name")
