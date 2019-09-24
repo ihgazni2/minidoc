@@ -47,7 +47,7 @@ setup(
     entry_points = {
          'console_scripts': [
              'minidoc=minidoc.bin:main',
-             'minidoc_from_comments=minidoc.BINS.minidoc_from_docstring:main'
+             'minidoc_from_docstring=minidoc.BINS.minidoc_from_docstring:main'
          ]
     },
     classifiers=[
