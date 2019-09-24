@@ -116,7 +116,16 @@ Usage
         
         # on current dir,screen recording
         root@# minidoc -still false
+
+
+- from docstring only one level(experimental,no recursive support, since only one level AST walked)
+    
+    ::
         
+        root@# minidoc_from_docstring -proj dtable
+
+
+
 
 Features
 --------
