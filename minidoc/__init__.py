@@ -1,1 +1,1 @@
-__all__ = ["minidoc","tst","svg","r2x","comast","BINS"]
+__all__ = ["minidoc","tst","svg","r2x","comast"]
