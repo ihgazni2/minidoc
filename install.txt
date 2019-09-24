@@ -1,6 +1,6 @@
 /usr/local/lib/python3.6/dist-packages/minidoc-0.0.3-py3.6.egg
 /usr/local/bin/minidoc
-/usr/local/bin/minidoc_from_comments
+/usr/local/bin/minidoc_from_docstring
 /usr/local/bin/eses_camel2dash
 /usr/local/bin/eses_camel2lod
 /usr/local/bin/eses_capinit
